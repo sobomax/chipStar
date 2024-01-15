@@ -4,6 +4,7 @@ name: cpp-linter
 
 on:
   push:
+    branches:
     paths-ignore: "docs/**"
 
 concurrency:

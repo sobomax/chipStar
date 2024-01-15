@@ -3,6 +3,8 @@
 name: unit-test-checker
 
 on:
+  push:
+    branches:
   pull_request:
     paths-ignore: "docs/**"
 
